@@ -2,4 +2,4 @@ baseURL = "https://hugo.binaryredneck.net/"
 languageCode = "en-us"
 title = "Binary Redneck"
 
-theme = "tale"
+theme = "indigo"

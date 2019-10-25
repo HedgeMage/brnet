@@ -1,5 +1,6 @@
 +++
 title = "A Hacker's Guide Getting Ahead"
+author = "Susan Sons"
 categories = ["reference"]
 date = "2017-08-07"
 description = ""
