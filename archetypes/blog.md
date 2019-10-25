@@ -1,6 +1,6 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
-categories = []
+categories = ["blog"]
 date = "{{ .Date }}"
 description = ""
 slug = ""

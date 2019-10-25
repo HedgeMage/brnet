@@ -6,25 +6,55 @@
     <description>Recent content on Binary Redneck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Oct 2019 16:58:05 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2019 18:16:10 -0400</lastBuildDate>
     
 	<atom:link href="https://hugo.binaryredneck.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo Reboot</title>
-      <link>https://hugo.binaryredneck.net/blog/2019/hugo-reboot/</link>
-      <pubDate>Fri, 25 Oct 2019 16:58:05 -0400</pubDate>
+      <title>Testing Hugo</title>
+      <link>https://hugo.binaryredneck.net/blog/2019/testing-hugo/</link>
+      <pubDate>Fri, 25 Oct 2019 18:16:10 -0400</pubDate>
       
-      <guid>https://hugo.binaryredneck.net/blog/2019/hugo-reboot/</guid>
-      <description>#just a test
-this is a test.</description>
+      <guid>https://hugo.binaryredneck.net/blog/2019/testing-hugo/</guid>
+      <description>Tonight, I began playing with Hugo, a static site generator in Go. I&amp;rsquo;ve been a big fan of static site generators for some time, due to the incredible freedom of just not maintaining a CMS before, especially for simple content. I&amp;rsquo;ve long needed to move from Ghost, which is great for its target audience, but too WYSIWYG and clicky for my engineer brain.
+So far, so good. Hugo is much faster to compile and has a much bigger and more varied theme ecosystem than Nikola, the static site generator I&amp;rsquo;d worked with previously.</description>
+    </item>
+    
+    <item>
+      <title>Gifts of All Kinds</title>
+      <link>https://hugo.binaryredneck.net/blog/2017/gifts-of-all-kinds/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo.binaryredneck.net/blog/2017/gifts-of-all-kinds/</guid>
+      <description>One of my mentees recently left me with a very special gift: a copy of Donald Knuth&amp;rsquo;s The Art of Computer Programming, Vols 1-4a.
+Besides being a staple of the computer science community, these books have a special meaning for me personally. They remind me of another, even more priceless, gift: the support of adults in my young life, especially my parents, even when they didn&amp;rsquo;t understand me. I grew up in the last place one might expect a software engineer or information security professional to come from: the remains of an old farming community on Chicago&amp;rsquo;s south side, surrounded by some rougher neighborhoods.</description>
+    </item>
+    
+    <item>
+      <title>A Hacker&#39;s Guide Getting Ahead</title>
+      <link>https://hugo.binaryredneck.net/reference/hacker-guide-getting-ahead/</link>
+      <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo.binaryredneck.net/reference/hacker-guide-getting-ahead/</guid>
+      <description>This page serves as a living index of things a hacker could use to raise their effectiveness in the general sense. These are the bits of professional development that are often glossed over or skipped in the learning paths of technical people. I often refer my mentees to these resources, and have most of the books in my personal library available for loan to friends, colleagues, and Newguardians.
+Time Management and General Organization Resources in this section are focused on at least one of the three pillars of general productivity: finding more time in which to do work, fitting more work into the same amount of time, or doing more impactful work.</description>
+    </item>
+    
+    <item>
+      <title>Intro to IRC</title>
+      <link>https://hugo.binaryredneck.net/reference/irc/</link>
+      <pubDate>Mon, 02 Jan 2017 18:33:31 -0400</pubDate>
+      
+      <guid>https://hugo.binaryredneck.net/reference/irc/</guid>
+      <description>N.B., this guide is specifically for new and future hackers interested in finding community via IRC. Not all advice applies if you are only interested in non-hacker communities such as Nerdfitness or gamer stuff.
+What is IRC? IRC, or Internet Relay Chat, has been the place to get hacking of the network and software engineering kinds done since the 1980s, with information security soon on its heels. It remains so, because:</description>
     </item>
     
     <item>
       <title>Intro to IRC</title>
       <link>https://hugo.binaryredneck.net/irc/</link>
-      <pubDate>Mon, 02 Jan 2017 18:33:31 -0400</pubDate>
+      <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hugo.binaryredneck.net/irc/</guid>
       <description>N.B., this guide is specifically for new and future hackers interested in finding community via IRC. Not all advice applies if you are only interested in non-hacker communities such as Nerdfitness or gamer stuff.

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reference on Binary Redneck</title>
+    <link>https://hugo.binaryredneck.net/categories/reference/</link>
+    <description>Recent content in Reference on Binary Redneck</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.binaryredneck.net/categories/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Hacker&#39;s Guide Getting Ahead</title>
+      <link>https://hugo.binaryredneck.net/reference/hacker-guide-getting-ahead/</link>
+      <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo.binaryredneck.net/reference/hacker-guide-getting-ahead/</guid>
+      <description>This page serves as a living index of things a hacker could use to raise their effectiveness in the general sense. These are the bits of professional development that are often glossed over or skipped in the learning paths of technical people. I often refer my mentees to these resources, and have most of the books in my personal library available for loan to friends, colleagues, and Newguardians.
+Time Management and General Organization Resources in this section are focused on at least one of the three pillars of general productivity: finding more time in which to do work, fitting more work into the same amount of time, or doing more impactful work.</description>
+    </item>
+    
+    <item>
+      <title>Intro to IRC</title>
+      <link>https://hugo.binaryredneck.net/irc/</link>
+      <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo.binaryredneck.net/irc/</guid>
+      <description>N.B., this guide is specifically for new and future hackers interested in finding community via IRC. Not all advice applies if you are only interested in non-hacker communities such as Nerdfitness or gamer stuff.
+What is IRC? IRC, or Internet Relay Chat, has been the place to get hacking of the network and software engineering kinds done since the 1980s, with information security soon on its heels. It remains so, because:</description>
+    </item>
+    
+  </channel>
+</rss>

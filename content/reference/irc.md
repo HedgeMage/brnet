@@ -1,16 +1,13 @@
-+++
-title = "Intro to IRC"
-categories = ["Reference"]
-date = "2017-01-02"
-description = "A gentle and quick introduction to Internet Relay Chat"
-slug = "irc"
-tags = ["irc"]
-
-aliases = ["/irc",]
-
-menu = "main"
-+++
-
+---
+title: "Intro to IRC"
+date: 2017-01-02T18:33:31-04:00
+draft: false
+menu:
+  docs:
+    parent: 'reference'
+    weight: 20
+slug: "irc"
+---
 
 
 *N.B., this guide is specifically for new and future hackers interested in finding community via IRC. Not all advice applies if you are only interested in non-hacker communities such as Nerdfitness or gamer stuff.*
