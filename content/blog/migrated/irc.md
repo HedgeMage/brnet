@@ -1,17 +1,12 @@
 +++
-title = "Intro to IRC"
-categories = ["Reference"]
-date = "2017-01-02"
-description = "A gentle and quick introduction to Internet Relay Chat"
+author = "Susan Sons"
+date = 2017-01-02T23:58:47Z
+description = ""
+draft = false
 slug = "irc"
-tags = ["irc"]
+title = "Intro to IRC"
 
-aliases = ["/irc",]
-
-menu = "main"
 +++
-
-
 
 *N.B., this guide is specifically for new and future hackers interested in finding community via IRC. Not all advice applies if you are only interested in non-hacker communities such as Nerdfitness or gamer stuff.*
 
@@ -161,7 +156,7 @@ Pasting more than 2–3 lines at a time to a channel. Instead, use a [pastebin](
 
 ### Advanced (Optional)
 
-#### SSL
+####SSL
 
 Many IRC servers are capable of SSL-encrypting client<->server connections and/or accepting client auth via SSL certificate. The specfics vary per network, but if you are interested you can look up connection info on the network’s web page. I’m currently less than impressed with this capability as almost every client available uses GnuTLS to handle SSL. Hopefully, that will be phased out soon.
 
@@ -194,3 +189,4 @@ If you feel like trying a bouncer, I highly recommend [ZNC](http://wiki.znc.in/Z
 [^2]: Some people will hear you are on Windows and recommend a client called mIRC. **DO NOT** use mIRC. In addition to the fact that it has security issues and violates the IRC spec in ways that create extra work for network staff, mIRC is a favorite of script kiddies, and that’s really not the message you want to send about yourself.
 
 [^3]: For some value of “private”. Pm’s are not broadcast to the channel like regular messages, but they aren’t encrypted, either. Some clients are capable of using OTR or GPG to perform end-to-end encryption for private messages, but the implementations are hellishly buggy.
+

@@ -1,12 +1,13 @@
 +++
-title = "Gifts of All Kinds"
-categories = ["blog"]
-date = "2017-09-30"
+author = "Susan Sons"
+categories = ["musings", "childhood", "parenting", "books"]
+date = 2017-09-30T13:00:00Z
 description = ""
-slug = ""
-tags = ["taocp", "books", "memories"]
+draft = false
+slug = "gifts-all-kinds"
+tags = ["musings", "childhood", "parenting", "books"]
+title = "Gifts of All Kinds"
 
-aliases = []
 +++
 
 One of my mentees recently left me with a very special gift: a copy of Donald Knuth's The Art of Computer Programming, Vols 1-4a.
@@ -44,3 +45,4 @@ The cool thing is that you don't even have to be a parent to be a supportive pre
 
 
 [^1]: Volume 4a wasn't published until I was much older.
+
