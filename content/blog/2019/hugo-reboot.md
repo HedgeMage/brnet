@@ -1,7 +1,8 @@
 ---
 title: "Hugo Reboot"
 date: 2019-10-25T16:58:05-04:00
-draft: true
+draft: false
+
 ---
 
 #just a test

@@ -1,3 +1,5 @@
 baseURL = "http://binaryredneck.net/"
 languageCode = "en-us"
 title = "Binary Redneck"
+
+theme = "indigo"
