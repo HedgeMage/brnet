@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Binary Redneck</title>
-    <link>http://binaryredneck.net/blog/</link>
+    <link>https://hugo.binaryredneck.net/blog/</link>
     <description>Recent content in Blogs on Binary Redneck</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Oct 2019 16:58:05 -0400</lastBuildDate>
     
-	<atom:link href="http://binaryredneck.net/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hugo.binaryredneck.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Reboot</title>
-      <link>http://binaryredneck.net/blog/2019/hugo-reboot/</link>
+      <link>https://hugo.binaryredneck.net/blog/2019/hugo-reboot/</link>
       <pubDate>Fri, 25 Oct 2019 16:58:05 -0400</pubDate>
       
-      <guid>http://binaryredneck.net/blog/2019/hugo-reboot/</guid>
+      <guid>https://hugo.binaryredneck.net/blog/2019/hugo-reboot/</guid>
       <description>#just a test
 this is a test.</description>
     </item>

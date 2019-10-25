@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://binaryredneck.net/blog/2019/hugo-reboot/</loc>
+    <loc>https://hugo.binaryredneck.net/blog/2019/hugo-reboot/</loc>
     <lastmod>2019-10-25T16:58:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://binaryredneck.net/</loc>
-    <lastmod>2019-10-25T16:58:05-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://binaryredneck.net/blog/</loc>
+    <loc>https://hugo.binaryredneck.net/</loc>
     <lastmod>2019-10-25T16:58:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://binaryredneck.net/categories/</loc>
+    <loc>https://hugo.binaryredneck.net/blog/</loc>
+    <lastmod>2019-10-25T16:58:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://binaryredneck.net/tags/</loc>
+    <loc>https://hugo.binaryredneck.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/</loc>
     <priority>0</priority>
   </url>
   
