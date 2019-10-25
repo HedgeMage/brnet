@@ -2,8 +2,8 @@
 title = "Intro to IRC"
 author = "Susan Sons"
 date = "2017-01-02T18:33:31-04:00"
-draft: false
-slug: "irc"
+draft = false
+slug = ["irc"]
 +++
 
 
