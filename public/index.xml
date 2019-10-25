@@ -21,5 +21,15 @@
 this is a test.</description>
     </item>
     
+    <item>
+      <title>Intro to IRC</title>
+      <link>https://hugo.binaryredneck.net/irc/</link>
+      <pubDate>Mon, 02 Jan 2017 18:33:31 -0400</pubDate>
+      
+      <guid>https://hugo.binaryredneck.net/irc/</guid>
+      <description>N.B., this guide is specifically for new and future hackers interested in finding community via IRC. Not all advice applies if you are only interested in non-hacker communities such as Nerdfitness or gamer stuff.
+What is IRC? IRC, or Internet Relay Chat, has been the place to get hacking of the network and software engineering kinds done since the 1980s, with information security soon on its heels. It remains so, because:</description>
+    </item>
+    
   </channel>
 </rss>
