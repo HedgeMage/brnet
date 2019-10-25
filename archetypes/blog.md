@@ -1,5 +1,7 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
+author = "Susan Sons"
+
 categories = ["blog"]
 date = "{{ .Date }}"
 description = ""
