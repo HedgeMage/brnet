@@ -1,13 +1,12 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
 author = "Susan Sons"
-categories = []
+#categories = []
 date = "{{ .Date }}"
 description = ""
 slug = ""
 tags = []
-
-aliases = []
+#aliases = []
 
 draft = "true"
 +++
