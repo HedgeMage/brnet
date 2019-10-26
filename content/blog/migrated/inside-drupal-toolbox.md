@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["drupal", "OSS", "tools"]
 date = 2010-04-21T05:00:00Z
 description = ""
 draft = false

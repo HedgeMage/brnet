@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["web development", "work", "money"]
 date = 2010-07-07T19:36:00Z
 description = ""
 draft = false

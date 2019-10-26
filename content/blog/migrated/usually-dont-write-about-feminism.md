@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["culture", "family", "OSS", "feminism"]
 date = 2010-09-08T13:10:00Z
 description = ""
 draft = false

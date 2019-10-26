@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["OSS", "meritocracy", "community"]
 date = 2017-05-11T22:26:00Z
 description = ""
 draft = false

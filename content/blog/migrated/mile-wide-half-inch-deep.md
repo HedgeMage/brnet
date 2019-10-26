@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["martial arts", "moving"]
 date = 2010-06-01T07:47:00Z
 description = ""
 draft = false

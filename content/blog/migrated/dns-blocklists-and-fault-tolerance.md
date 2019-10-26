@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["DNS", "Quad9", "network-protocols"]
 date = 2017-12-15T22:39:00Z
 description = ""
 draft = false

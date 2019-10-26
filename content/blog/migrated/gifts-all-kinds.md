@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["musings", "childhood", "parenting", "books"]
 date = 2017-09-30T13:00:00Z
 description = ""
 draft = false

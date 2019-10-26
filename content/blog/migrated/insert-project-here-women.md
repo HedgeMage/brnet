@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["tech", "politics", "fainting-couch-feminism"]
 date = 2006-06-30T05:52:00Z
 description = ""
 draft = false

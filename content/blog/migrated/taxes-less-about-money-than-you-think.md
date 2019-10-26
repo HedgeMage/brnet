@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["politics", "tax"]
 date = 2010-06-15T08:05:00Z
 description = ""
 draft = false

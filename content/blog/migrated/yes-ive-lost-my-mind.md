@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["NaNoWriMo"]
 date = 2006-09-28T04:14:00Z
 description = ""
 draft = false

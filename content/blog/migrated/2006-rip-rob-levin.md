@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["OSS", "freenode", "rip"]
 date = 2006-09-16T11:48:00Z
 description = ""
 draft = false

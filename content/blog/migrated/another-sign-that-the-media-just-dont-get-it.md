@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["jabber", "Cisco", "media", "OSS"]
 date = 2008-09-19T14:20:00Z
 description = ""
 draft = false

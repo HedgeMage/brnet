@@ -1,6 +1,5 @@
 +++
 author = "Susan Sons"
-categories = ["DRM", "gadgets", "Kindle", "news"]
 date = 2009-08-18T01:34:00Z
 description = ""
 draft = false
