@@ -31,7 +31,7 @@ To start his apiary, Lucas was going to need a hive stand, hive components, prot
 
 To show that he was serious, I required Lucas to make a business plan and pitch it to me, as any founder would do to their potential backers.  Here's what the title slide of his pitch deck looked like:
 
-![Title Slide: Bloomington Bees presentation](/content/images/2017/06/BloomingtonBeesTitleSlide.png)
+![Title Slide: Bloomington Bees presentation](BloomingtonBeesTitleSlide.png)
 
 It took him about two months to finish the business plan and pitch deck, having never done this sort of thing before.  Lucas ended up researching a lot of things he hadn't thought about: Where would he sell his product, and for how much money?  How would he package it?  What was his marketing strategy?  What risks would he have to mitigate along the way, and how would he do so?
 
@@ -53,22 +53,22 @@ In the first year, it was questionable whether Lucas would be able to harvest an
 
 Lucas's first purchase, on a trip to [Kelley Bee Supply](https://www.kelleybees.com/) down in Kentucky, were frames for his hives.  A frame hangs in a hive box and gives bees a place to build their honeycomb.  Lucas chose "foundationless frames" which, weirdly enough, aren't mainstream these days.  Most beekeepers seem to favor frames with foundation: a plastic base that is shaped like the backplane of sorts built between layers of honeycomb.  It's believed that foundation helps the bees speed up hive building.  However, there are down sides: the most robust bee home is one that bees have built to their own specs.  Forgoing foundation means that you get stronger honeycomb at a slower pace that allows the colony to grow up before it starts building out too far.
 
-![Frame picture](/content/images/2017/06/Frame-whole-1.jpg)
+![Frame picture](Frame-whole-1.jpg)
 
 That's a frame.  You'll see that the top bar hangs over the sides, to allow the frame to rest on a ledge inside the top of a hive box.
 
-![Frame picture: top ridge](/content/images/2017/06/Frame-partial.jpg)
+![Frame picture: top ridge](Frame-partial.jpg)
 
 This photo is taken at an angle that shows how a triangular ridge hangs down from the inside of the frame's top side.  This gives the bees something to attach their honeycomb to.
 
 The frames, of course, need a hive to hang inside.  A modern beehive consists of a top cover, a bottom cover, and some number of "hive boxes" in between, filled with frames.  These come in different sizes: for Lucas's hives, we chose 8-frame mediums, because it's the smallest practical size and would be easy for him to move around himself even when loaded down with honey, comb, and bees.  To save money, Lucas purchased the boxes unassembled, and spent a Sunday afternoon putting them together:
 
-![box assembly 1](/content/images/2017/06/assembly1.jpg)
-![box assembly 2](/content/images/2017/06/assembly2.jpg)
+![box assembly 1](assembly1.jpg)
+![box assembly 2](assembly2.jpg)
 
 The outsides were painted to help the boxes last a bit longer outside in the elements, but it's important not to paint the insides, as that would make an unhealthy environment for the bees.
 
-![painting](/content/images/2017/06/painting.jpg)
+![painting](painting.jpg)
 
 ## Disaster Strikes
 
@@ -86,13 +86,13 @@ We picked up the bees Saturday morning from Bastin's, along with two deep hive b
 
 Because the back of our property is sloped, we had to dig quite a bit to make sure the hive stand would come out level.
 
-![Digging the base](/content/images/2017/06/digging.jpg)
+![Digging the base](digging.jpg)
 
 Lucas's beekeeping mentor soon arrived to help him move his bees into their new homes.  The expert installed bees from the first NUC into the first hive, then Lucas installed the bees from the second NUC into the second hive.
 
-![Bee installation: first hive](/content/images/2017/06/bee-installation-first.jpg)
+![Bee installation: first hive](bee-installation-first.jpg)
 
-![Bee installation: second hive](/content/images/2017/06/bee-installation-second.jpg)
+![Bee installation: second hive](bee-installation-second.jpg)
 
 ## The bees are in...
 
@@ -100,7 +100,7 @@ Now we give them a couple of weeks to settle into their new home.  The bees seem
 
 He'll add boxes to the stack as the bee population grows, making each hive taller over time.  Eventually, he should be able to phase out those deep boxes in favor of easier-to-handle mediums.  Meanwhile, the bees get a steady diet of sugar syrup from the feeder boxes just under the hive covers to help supply their new hives.  Lucas's first business is what all the buzz is about![^3]
 
-![Pitch Deck Last Slide](/content/images/2017/06/BloomingtonBeesFinalSlide.png)
+![Pitch Deck Last Slide](BloomingtonBeesFinalSlide.png)
 
 ----
 
