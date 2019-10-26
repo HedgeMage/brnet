@@ -1,4 +1,22 @@
 baseURL = "https://hugo.binaryredneck.net/"
 languageCode = "en-us"
-theme = "tale"
+theme = "kiera"
 title = "Binary Redneck"
+
+pygmentsCodeFences = true
+
+disqusShortname = "" #Disqus shortname
+googleAnalytics = "" #Google Analytics ID
+
+[author]
+    name = "Susan E. Sons"       #Author name
+#    github = ""     #Github username
+#    gitlab = ""     #Gitlab username
+    linkedin = "susansons"   #LinkedIn username
+#    facebook = ""   #Facebook username
+    twitter = "@HedgeMage"    #Twitter username
+#    instagram = ""  #Instagram username
+
+[params]
+    tagline = ""
+    customCSS = []  #Optional Customised CSS

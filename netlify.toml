@@ -2,6 +2,19 @@
 publish = "public"
 command = "hugo --gc --minify"
 
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[bundle.processing.js]
+  bundle = true
+  minify = true
+[bundle.processing.html]
+  pretty_urls = true
+[build.processing.images]
+  compress = false
+
 [context.production.environment]
 HUGO_VERSION = "0.59.0"
 HUGO_ENV = "production"
