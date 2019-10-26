@@ -5,7 +5,6 @@ date = 2017-06-11T17:20:00Z
 description = ""
 draft = false
 image = "/images/2017/06/finished-hive-stand-3.jpg"
-slug = "so-it-bee-gins"
 tags = ["family", "bees", "startups"]
 title = "So it bee-gins."
 
