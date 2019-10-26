@@ -10,12 +10,20 @@ fields:
 - type: text
   name: author
   label: author
+  config:
+    required: true
+  default: Susan Sons
 - type: list
   name: categories
   label: categories
+  config:
+    use_select: false
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
+  default: now
 - type: text
   name: description
   label: description
