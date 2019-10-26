@@ -6,7 +6,6 @@ draft = false
 slug = "dns-blocklists-and-fault-tolerance"
 tags = ["DNS", "Quad9", "network-protocols"]
 title = "DNS, Blocklists, and Fault Tolerance"
-
 +++
 
 My workplace hosts weekly "brown bag" discussions, wherin much of the team and various guests bring our lunches to our larger conference room, or an HTML5 videoconference bridge, and discuss some information security topic over a meal.  It's an informal affair; my stuffed animals may even appear on camera in my stead if I'm under the weather as I was today.
