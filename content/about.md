@@ -6,7 +6,7 @@ draft = false
 slug = "about"
 tags = []
 title = "About"
-menu = "main"
+menu = ["main"]
 +++
 
 Welcome to yet another mildly neglected blog by a hacker.  I'm your host,
