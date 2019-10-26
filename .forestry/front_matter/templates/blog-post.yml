@@ -36,5 +36,3 @@ fields:
 - type: list
   name: aliases
   label: aliases
-pages:
-- content/blog/testing-some-things.md
