@@ -5,8 +5,7 @@ description = ""
 draft = false
 slug = "about"
 tags = []
-title = "About"
-menu = ["main"]
+title = "About BinaryRedneck.net"
 +++
 
 Welcome to yet another mildly neglected blog by a hacker.  I'm your host,
