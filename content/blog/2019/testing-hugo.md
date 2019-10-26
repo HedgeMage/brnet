@@ -1,7 +1,6 @@
 +++
 title = "Testing Hugo"
 author = "Susan Sons"
-categories = ["blog"]
 date = "2019-10-25T18:16:10-04:00"
 description = ""
 slug = ""
