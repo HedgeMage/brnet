@@ -1,17 +1,14 @@
 +++
-title = "A Hacker's Guide Getting Ahead"
+aliases = []
 author = "Susan Sons"
 categories = ["reference"]
 date = "2017-08-07"
 description = ""
 slug = ""
 tags = []
+title = "A Hacker's Guide Getting Ahead"
 
-aliases = []
-
-menu = "main"
 +++
-
 This page serves as a living index of things a hacker could use to raise their effectiveness in the general sense.  These are the bits of professional development that are often glossed over or skipped in the learning paths of technical people.  I often refer my mentees to these resources, and have most of the books in my personal library available for loan to friends, colleagues, and Newguardians.
 
 ## Time Management and General Organization
@@ -50,4 +47,3 @@ If you are or plan to be in charge of others, these resources are worth checking
 - **[Strengths Based Leadership](http://amzn.to/2vxtrS3)** isn't just for people in management roles: it's a book for people who are ready to take a step back and ask "what are my strengths, in a general sense, and how do I leverage them?".  This is especially important for tech folks, because we too easily focus on accumulating technical competencies, which eventually expire, while neglecting the meta-skills that amplify everything we do.  I'd recommend this book over [Strengths Finder 2.0](http://amzn.to/2vHX3MS), even for people who don't think of themselves as leaders, because the Strengths Based Leadership book is more action-oriented.  *Buy a new copy so you are sure to have an unused code for their online assessment.*
 
     Think of it like building a party for DoTA2 or D&D... you need complementary skill sets in order to be effective, and you play to your strengths so that you can snowball by building on places where you are strong.  Too often tech people forget these lessons and try to work on teams of people who are like themselves (imagine a D&D party of only fighters when evil magic is encountered), or focus on "fixing" weaknesses while neglecting the chance to snowball (imagine someone trying to play DoTA's Puck as a tank).
-
