@@ -6,7 +6,9 @@ draft = false
 slug = "getting-mentorship-right-oss"
 tags = ["OSS", "mentoring"]
 title = "Getting Mentorship Right in Open Source"
-
+aliases = [
+    "/2017/06/04/getting-mentorship-right-oss/",
+]
 +++
 
 *Thanks to pdurbin and moongazer in #openhatch for the original discussion, and pdurbin again for some good edits to this post.*
