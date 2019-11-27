@@ -1,4 +1,4 @@
-baseURL = "https://hugo.binaryredneck.net/"
+baseURL = "https://binaryredneck.net/"
 languageCode = "en-us"
 theme = "kiera"
 title = "Binary Redneck"
