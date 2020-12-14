@@ -1,134 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en-us">
-    <head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Intro to IRC &middot; Binary Redneck</title>
+<head>
+  <title>Binary Redneck</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="Susan Sons" /><meta name="generator" content="Hugo 0.68.3" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <script src="https://kit.fontawesome.com/b76b73e8e8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" /></head>
 
-		
-  		<link rel="stylesheet" href="/css/style.css">
-		<link rel="stylesheet" href="/css/fonts.css">
-		
-		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="/">Binary Redneck</a>
+            </h1>
 
-		
-		<link href="" rel="alternate" type="application/rss+xml" title="Binary Redneck" />
-	</head>
+      <ul id="social-media">
+        
+        
+        
+        <li><a href="https://twitter.com/@HedgeMage"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://www.linkedin.com/in/susansons"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+            
+      </ul>
+      
+    </header>
 
-    <body>
-        		<nav class="nav">
-			<div class="nav-container">
-				<a href="/">
-					<h2 class="nav-title">Binary Redneck</h2>
-				</a>
-				<ul>
     
-    
+<nav>
+    <ul>
+        
         <li>
-            <a href="/reference/hacker-guide-getting-ahead/">
-                
-                <span>A Hacker&#39;s Guide Getting Ahead</span>
-                
+            <a class="" href="/about">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
             </a>
         </li>
-    
+        
         <li>
-            <a href="/irc/">
-                
-                <span>Intro to IRC</span>
-                
+            <a class="" href="/blog/">
+                <i class="fa-li fa  fa-lg"></i><span>Archive</span>
             </a>
         </li>
+        
+        <li>
+            <a class="" href="/reference/">
+                <i class="fa-li fa  fa-lg"></i><span>Reference</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Intro to IRC</h1>
+
     
-</ul>
-			</div>
-		</nav>
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2017-01-02T18:33:31-04:00">Jan 2, 2017</time>
+        </li>
+        
 
         
 
-<main>
-	<div class="post">
-		<div class="post-info">
-    <span>Written by</span>
-        
-        <br>
-        <span>on&nbsp;</span><time datetime="2017-01-02 18:33:31 -0400 -0400">January 2, 2017</time>
-</div>
-		<h1 class="post-title">Intro to IRC</h1>
-<div class="post-line"></div>
+        <li>12 minutes read</li>
+    </ul>
+</aside>
 
-		
+    
 
-		
-
-<p><em>N.B., this guide is specifically for new and future hackers interested in finding community via IRC. Not all advice applies if you are only interested in non-hacker communities such as Nerdfitness or gamer stuff.</em></p>
-
+    <p><em>N.B., this guide is specifically for new and future hackers interested in finding community via IRC. Not all advice applies if you are only interested in non-hacker communities such as Nerdfitness or gamer stuff.</em></p>
 <h2 id="what-is-irc">What is IRC?</h2>
-
 <p>IRC, or <em>Internet Relay Chat</em>,  has been the place to get hacking of the network and software engineering kinds done since the 1980s, with information security soon on its heels. It remains so, because:</p>
-
 <ul>
-<li><p>IRC makes it equally easy to chat with someone down the hall and someone miles away.</p></li>
-
-<li><p>IRC chatter can easily be logged and searched to find that thing you forgot.</p></li>
-
-<li><p>IRC clients come in many shapes and sizes, so it’s generally easy to find one that fits your workflow well, and is accessible to you regardless of operating system or disability.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p></li>
-
-<li><p>IRC lets live conversations happen as easily as it lets messages sit around for later, so it bends to your schedule instead of the other way around.</p></li>
+<li>
+<p>IRC makes it equally easy to chat with someone down the hall and someone miles away.</p>
+</li>
+<li>
+<p>IRC chatter can easily be logged and searched to find that thing you forgot.</p>
+</li>
+<li>
+<p>IRC clients come in many shapes and sizes, so it’s generally easy to find one that fits your workflow well, and is accessible to you regardless of operating system or disability.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</li>
+<li>
+<p>IRC lets live conversations happen as easily as it lets messages sit around for later, so it bends to your schedule instead of the other way around.</p>
+</li>
 </ul>
-
 <h2 id="choosing-a-client">Choosing a client</h2>
-
-<p>HexChat is a popular GUI client available for Windows<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup>, Mac OSX, Linux and UNIX.  It is easy to use, and has most of the popular networks preconfigured.  On Linux or UNIX you should get it from your package manager if possible. Mac OSX and Windows users should download from <a href="http://hexchat.github.io/downloads.html">http://hexchat.github.io/downloads.html</a>.</p>
-
+<p>HexChat is a popular GUI client available for Windows<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, Mac OSX, Linux and UNIX.  It is easy to use, and has most of the popular networks preconfigured.  On Linux or UNIX you should get it from your package manager if possible. Mac OSX and Windows users should download from <a href="http://hexchat.github.io/downloads.html">http://hexchat.github.io/downloads.html</a>.</p>
 <p>weechat and irssi are popular text-mode clients available for Linux, Mac, and UNIX. Both require considerably more configuration than Hexchat or Xchat to get started, and have more of a learning curve in general. However, the payoff is a very clean text-mode chat experience that is extremely configurable and handles complex filters, dozens of channels across multiple networks, and custom behaviors very very well. If you have a preference to avoid ncurses, irssi may suit you better, but in all other cases I’d recommend trying weechat first, as it is more actively developed and slightly easier to ramp up on than irssi.</p>
-
 <p>There are at least a hundred other clients out there – clients that live inside Emacs, clients that run on your phone, clients that integrate with your email client, XMPP (Jabber) client, and more – just look around.</p>
-
 <h2 id="irc-basics">IRC basics</h2>
-
 <h3 id="networks">Networks</h3>
-
 <p>There are two IRC networks that you probably care about if you are just starting out: <a href="http://www.oftc.net/">OFTC</a> and <a href="http://freenode.net/">freenode</a>. Both of these networks are preconfigured in Hexchat, so you need merely select them and give yourself a nickname.  If you’re trying to configure something else, see the networks’ respective home pages for connection details.</p>
-
 <p>Freenode is the network where the bulk of open source projects host their development, support, and social channels.</p>
-
 <p>OFTC is a spinoff of freenode, with a small but significant number of open source channels, plus a number of privacy and security channels.</p>
-
 <p>Each of the clients I mentioned is capable of simultaneously connecting to both (or more!) networks so that you may enjoy channels on each.</p>
-
 <h3 id="nicknames">Nicknames</h3>
-
 <p>You’ll find me on both freenode and OFTC as &ldquo;HedgeMage&rdquo; when on my personal machines or &ldquo;HedgeWork&rdquo; from a work machine. The separation is arbitrary, it’s just a result of how I manage my bouncer accounts.</p>
-
 <p>You should find a unique, unregistered nickname and register it so others can get to know you.  While some people use their initials or some form of their legal name as an IRC nick, this is by no means required. Nicknames that are easy to remember are preferred, and this often leads to seemingly outlandish ones. Being HedgeMage certainly doesn’t keep me from being taken seriously. Similarly, bonsaikitten, Isky, micrypt, and CaptainPlatypus are all quite serious individuals whom you should probably get to know at some point.</p>
-
 <p>In order to “own” a nickname on an IRC network, you must register with nickserv. This has the advantage both of reserving that nickname for your use only, and of giving channel owners the ability to give you invitations to invite-only channels, chanop (channel operator) privileges, or other special permissions if they so choose.</p>
-
 <p>Registration is simple. Do <code>/query nickserv info foo</code>, where “foo” is a nickname that interests you, until you find something that you like which has not been registered by someone else. Then do <code>/nick foo</code> to change your nickname to “foo”. <code>/query nickserv help register</code> will provide you with registration instructions.</p>
-
 <p>Authentication in IRC is often referred to as “identifying to nickserv”, because it’s an apt description of the usual command (where “MYPASSWORD” is the password set during registration):</p>
-
 <pre><code>/msg nickserv identify MYPASSWORD
 </code></pre>
-
 <p>If you get sick of typing that every time you connect, before joining any private channels, you can tell your client to identify for you on connection. The mechanism varies, but if you can’t find specifics in your client’s documentation, feel free to ask for help via your client&rsquo;s IRC channel.</p>
-
 <h3 id="channels">Channels</h3>
-
 <p>There are channels out there for nearly every interest.  Since most of my readers are focused on open source software development or information security, I&rsquo;ll suggest a few in this arena:</p>
-
 <h4 id="on-oftc">On OFTC:</h4>
-
 <ul>
 <li><code>#grokmenot</code> is a beginner-friendly channel for current and future infosec professionals.</li>
 </ul>
-
 <h4 id="on-freenode">On Freenode:</h4>
-
 <ul>
 <li><code>#icei</code> belongs to my nonprofit org, the <a href="https://icei.org">Internet Civil Engineering Institute</a>.  Stop by, and help us save the internet.</li>
 <li><code>#friendly-coders</code> is a good place to ask questions about programming in any language.</li>
@@ -136,156 +132,115 @@
 <li><code>#startups</code> is for founders and employees of early-stage startups, and others interested in what is happening in startup-land.</li>
 <li>The best places to start are usually support and development channels for software you use and are interested in.</li>
 </ul>
-
 <h4 id="other-networks">Other Networks:</h4>
-
 <p>Mozilla has their own network, plus there are some older networks like DALnet and EFnet out there.  Feel free to explore, but before you do, read on to understand IRC culture a bit so that you make friends instead of enemies.</p>
-
 <h3 id="irc-social-memes">IRC social memes</h3>
-
 <p>Like any other community, IRC networks have their own social standards. For the most part, you’ll pick these up as you go, but there are a few points worthy of special attention:</p>
-
 <p>On freenode, it is considered stalkerish to pm (private message) someone without their express permission. Other networks don’t care that much, but when in doubt ask before pm’ing.</p>
-
 <p>It is 100% normal and expected IRC behavior to “idle” in channels, or leave a client connected to a channel in which one is not active. This lets users peek in between other tasks and become active if something interests them, see what they missed while gone, or just plain not create a bunch of join/part messages by entering/leaving frequently. It’s often useful to idle in a channel for a while when one first joins to get an idea of how people there interact.  Every channel has a social code of their own.</p>
-
 <p>Almost every IRC client will “hilight” lines that contain the user’s IRC nick. This is a useful way to help others follow a conversation when other conversations are happening in the same channel. So, if I’m supposed to notice something in a busy channel, you probably want to preface it with <code>HedgeWork:</code>. It’s not very nice to gratuitously hilight someone who is obviously idle or away, as that would leave them with a huge backlog of notifications to return to.</p>
-
 <p>Almost every IRC client offers tab-completion of nicknames. This is really useful when trying to hilight someone or send a pm.</p>
-
 <p>Before trying to get help in a support channel, please read <a href="http://catb.org/~esr/faqs/smart-questions.html">How To Ask Questions the Smart Way</a> and <a href="http://binary-redneck.net/2010/06/23/support-leech">The Anatomy and Habits Of the Common Support Leech</a>. Everyone reading this is likely smart enough that if we need support, it’s going to be from someone bright and skilled enough that they are likely to also be curmudgeonly about IRC behavior.</p>
-
 <p>Know where you are before you talk about working in or being interested in security. IRC has good neighborhoods and bad. On EFnet, for example, or in #defocus on freenode, stating that you’re in the security field has about a 1-in–5 chance of making some teenage twit with a botnet very interested in you.</p>
-
 <h3 id="commands">Commands</h3>
-
 <p>IRC has a lot of commands. Standard commands, commands specific to the IRCd or services daemons running, commands specific to the client used or commands custom-configured by the user. Here are a few very basic, very universal ones that you may find useful.</p>
-
 <p><code>/join</code> and <code>/part</code></p>
-
 <p>This is how you join and leave channels. <code>/join #foo</code> will let you join the foo channel, and <code>/part</code> while focused on that channel will cause you to leave.</p>
-
 <p><code>/topic</code></p>
-
 <p>You should always issue the <code>/topic</code> command upon entering a channel you haven’t been to before to find out what it’s about or if there are any channel rules they want newbies to be aware of. Many clients also display the channel topic somewhere above where the channel’s traffic is displayed.</p>
-
 <p><code>/query</code> and <code>/msg</code></p>
-
-<p>The <code>/query</code> and <code>/msg</code> commands allow you to send a private<sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup> message, or pm, to another user. In some clients, these behave identically. In other clients, <code>/query</code> will start the private conversation in a separate window or buffer but <code>/msg</code> will not.</p>
-
+<p>The <code>/query</code> and <code>/msg</code> commands allow you to send a private<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> message, or pm, to another user. In some clients, these behave identically. In other clients, <code>/query</code> will start the private conversation in a separate window or buffer but <code>/msg</code> will not.</p>
 <p>Example:</p>
-
 <pre><code>/query HedgeWork Hey, are you going to be posting your Penguicon slides any
 </code></pre>
-
 <p>time soon?</p>
-
 <p><code>/me</code></p>
-
 <p>The <code>/me</code> command is used to sort of narrate yourself, for example, if I type /me fires her Nerf gun in Craig&rsquo;s direction., others will see:</p>
-
 <pre><code>* HedgeMage fires her Nerf gun in Craig's direction.
 </code></pre>
-
 <p><code>/away</code></p>
-
 <p>The <code>/away</code> command is used to set a status message so people know you are not paying attention to IRC. The syntax is <code>/away At lunch, back around 1pm.</code>. To unset your away, just use <code>/away</code> with no message or arguments.</p>
-
 <p>N.B. to weechat users: weechat defaults to only applying away commands to the network currently focused. To set or unset your status on all currently connected networks in weechat, use <code>/aaway</code> instead.</p>
-
 <p>Some clients will set you away automatically after you have been idle for some time, and remove it when you next type something in the client. This can be very helpful.</p>
-
 <p>Some clients will announce to every channel you are in and every person you’ve recently pm’ed that you are going away, and when you return. This is obnoxious, and should be turned off.</p>
-
 <p><code>/names</code></p>
-
 <p>The <code>/names</code> command will display a list of the nicks currently joined to the current channel. This is superfluous in Hexchat, Xchat, and weechat – all of which present a nicklist next to the traffic for each buffer – but irssi users may find themselves using <code>/names</code> more often.</p>
-
 <p><code>/whois</code></p>
-
 <p><code>/whois</code> allows you to get some basic information about a user. The exact information presented varies from server to server, but their nick, hostmask, real name (if set), and idle time are typically included. The syntax is <code>/whois HedgeWork</code> to get info on the user HedgeWork.</p>
-
 <p><code>nickserv</code> and <code>chanserv</code></p>
-
 <p>Nickserv and chanserv exist to register and manage nicknames (nickserv) and channels (chanserv). Both are well-documented on the server (and their usage can differ from network to network depending on which server daemons are being used). You can <code>/msg</code> or <code>/query</code> either to get a list of commands and additional documentation, e.g. <code>/query nickserv help</code> or <code>/query chanserv help</code>.</p>
-
 <h3 id="things-to-avoid">Things to avoid</h3>
-
 <p>The following are either insecure, obnoxious, or outmoded, and should not generally be used:</p>
-
 <p>Anything containing “DCC” or “CTCP” other than the CTCP “version” and “ping” commands (and those only if you really must).</p>
-
 <p><code>/notice</code></p>
-
 <p>Any command that sends coloration to the channel (though many clients and channels now strip colors, blinking, and other weird text effects).</p>
-
 <p>Pasting more than 2–3 lines at a time to a channel. Instead, use a <a href="http://pastebin.com/">pastebin</a> and give the channel a link to your paste.</p>
-
 <h3 id="advanced-optional">Advanced (Optional)</h3>
-
 <h4 id="ssl">SSL</h4>
-
 <p>Many IRC servers are capable of SSL-encrypting client&lt;-&gt;server connections and/or accepting client auth via SSL certificate. The specfics vary per network, but if you are interested you can look up connection info on the network’s web page. I’m currently less than impressed with this capability as almost every client available uses GnuTLS to handle SSL. Hopefully, that will be phased out soon.</p>
-
 <h4 id="screen-and-tmux-vs-bouncers">Screen and tmux vs. bouncers</h4>
-
 <p>Often, it is useful to maintain a connection to IRC even when your computer isn’t on or isn’t connected. This can allow you to read backscroll of conversations you missed, get messages from folks, or just reboot without annoying anybody with needless join and part notices.</p>
-
 <p>Some people accomplish that ongoing connection by running a command-line IRC client on a server or other high-uptime machine inside a screen or tmux session that they attach to from their workstation or laptop. Others, like me, prefer to run an IRC bouncer.</p>
-
 <p>A bouncer is a daemon that runs on a server, but connects to your various IRC networks like a client. Then, you connect your local client to the bouncer as if it were the IRC server. The bouncer is always connected, so nobody sees your client disconnects, and traffic you missed is sent to your client when you reconnect to the bouncer.</p>
-
 <p>Pros:</p>
-
 <ul>
 <li>You don’t have to miss what happens when you log off.</li>
 <li>You won’t annoy anyone if your connection is flaky.</li>
 <li>A bouncer can be configured to remember the channels you join or leave, so that you don’t have to manually maintain your autojoin list.</li>
 <li>The IRC networks you connect to will see your bouncer instead of your local machine.</li>
 </ul>
-
 <p>Cons:</p>
-
 <ul>
 <li>It’s another thing to maintain.</li>
 <li>The IRC networks you connect to will see your bouncer instead of your local machine.</li>
 </ul>
-
 <p>If you feel like trying a bouncer, I highly recommend <a href="http://wiki.znc.in/ZNC">ZNC</a>.</p>
-
-<hr />
-<div class="footnotes">
-
-<hr />
-
+<hr>
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li id="fn:1">This is my biggest beef with &ldquo;modern&rdquo; alternatives such as Slack: they fall down on both support across operating systems and support for the blind, and break hackers&rsquo; workflows by requiring separate tabs, identities, or clients for each project one interacts with.
- <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
-<li id="fn:2">Some people will hear you are on Windows and recommend a client called mIRC. <strong>DO NOT</strong> use mIRC. In addition to the fact that it has security issues and violates the IRC spec in ways that create extra work for network staff, mIRC is a favorite of script kiddies, and that’s really not the message you want to send about yourself.
- <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
-<li id="fn:3">For some value of “private”. Pm’s are not broadcast to the channel like regular messages, but they aren’t encrypted, either. Some clients are capable of using OTR or GPG to perform end-to-end encryption for private messages, but the implementations are hellishly buggy.
- <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+<li id="fn:1" role="doc-endnote">
+<p>This is my biggest beef with &ldquo;modern&rdquo; alternatives such as Slack: they fall down on both support across operating systems and support for the blind, and break hackers&rsquo; workflows by requiring separate tabs, identities, or clients for each project one interacts with. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Some people will hear you are on Windows and recommend a client called mIRC. <strong>DO NOT</strong> use mIRC. In addition to the fact that it has security issues and violates the IRC spec in ways that create extra work for network staff, mIRC is a favorite of script kiddies, and that’s really not the message you want to send about yourself. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>For some value of “private”. Pm’s are not broadcast to the channel like regular messages, but they aren’t encrypted, either. Some clients are capable of using OTR or GPG to perform end-to-end encryption for private messages, but the implementations are hellishly buggy. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
-</div>
+</section>
 
 
-		
-	</div>
+</article>
 
-	<div class="pagination">
-		<a href="/irc/" class="left arrow">&#8592;</a>
-		<a href="/reference/hacker-guide-getting-ahead/" class="right arrow">&#8594;</a>
 
-		<a href="#" class="top">Top</a>
-	</div>
+<section class="post-nav">
+    <ul>
+        
+        
+        <li>
+            <a href="https://hugo.binaryredneck.net/reference/hacker-guide-getting-ahead/">A Hacker&#39;s Guide Getting Ahead <i class="fa fa-chevron-circle-right"></i> </a>
+        </li>
+        
+    </ul>
+</section>
+    
+
+
+
+
+
 </main>
+    <footer>
+        <h6> |
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://hugo.binaryredneck.net/index.xml">Subscribe </a></h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
 
+</body>
 
-        		<footer>
-			<span>
-			&copy; <time datetime="2019-10-25 18:36:14.17616272 -0400 EDT m=&#43;0.094484888">2019</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
-			</span>
-		</footer>
-
-    </body>
 </html>
+

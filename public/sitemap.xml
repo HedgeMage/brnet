@@ -1,6 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/</loc>
+    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/reference/</loc>
+    <lastmod>2017-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/about/</loc>
+    <lastmod>2019-10-26T00:39:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/</loc>
+    <lastmod>2019-10-26T00:39:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/brnet/</loc>
+    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/hugo/</loc>
+    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/</loc>
+    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
+  </url>
   
   <url>
     <loc>https://hugo.binaryredneck.net/blog/2019/testing-hugo/</loc>
@@ -8,8 +43,83 @@
   </url>
   
   <url>
-    <loc>https://hugo.binaryredneck.net/blog/2017/gifts-of-all-kinds/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
+    <loc>https://hugo.binaryredneck.net/tags/dns/</loc>
+    <lastmod>2017-12-15T22:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/dns-blocklists-and-fault-tolerance/</loc>
+    <lastmod>2017-12-15T22:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/network-protocols/</loc>
+    <lastmod>2017-12-15T22:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/quad9/</loc>
+    <lastmod>2017-12-15T22:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/books/</loc>
+    <lastmod>2017-09-30T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/childhood/</loc>
+    <lastmod>2017-09-30T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/gifts-all-kinds/</loc>
+    <lastmod>2017-09-30T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/musings/</loc>
+    <lastmod>2017-09-30T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/parenting/</loc>
+    <lastmod>2017-09-30T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/just-a-thought/</loc>
+    <lastmod>2017-08-12T01:27:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/my-new-toy/</loc>
+    <lastmod>2017-08-07T22:56:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/organization/</loc>
+    <lastmod>2017-08-07T22:56:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/stuff/</loc>
+    <lastmod>2017-08-07T22:56:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/tools/</loc>
+    <lastmod>2017-08-07T22:56:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/writing/</loc>
+    <lastmod>2017-08-07T22:56:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/how-to-meeting/</loc>
+    <lastmod>2017-08-07T21:07:27+00:00</lastmod>
   </url>
   
   <url>
@@ -18,91 +128,387 @@
   </url>
   
   <url>
-    <loc>https://hugo.binaryredneck.net/reference/irc/</loc>
-    <lastmod>2017-01-02T18:33:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/irc/</loc>
-    <lastmod>2017-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/</loc>
-    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/categories/blog/</loc>
-    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/blog/</loc>
-    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/tags/books/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/tags/brnet/</loc>
-    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hugo.binaryredneck.net/categories/</loc>
-    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/tags/hugo/</loc>
-    <lastmod>2019-10-25T18:16:10-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/tags/irc/</loc>
-    <lastmod>2017-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hugo.binaryredneck.net/tags/memories/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2017-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hugo.binaryredneck.net/categories/reference/</loc>
     <lastmod>2017-08-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hugo.binaryredneck.net/reference/</loc>
-    <lastmod>2017-08-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/bloomington-bees/</loc>
+    <lastmod>2017-07-01T21:22:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hugo.binaryredneck.net/tags/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://hugo.binaryredneck.net/tags/bees/</loc>
+    <lastmod>2017-06-11T17:20:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hugo.binaryredneck.net/tags/taocp/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://hugo.binaryredneck.net/tags/family/</loc>
+    <lastmod>2017-06-11T17:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/so-it-bee-gins/</loc>
+    <lastmod>2017-06-11T17:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/startups/</loc>
+    <lastmod>2017-06-11T17:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/getting-mentorship-right-oss/</loc>
+    <lastmod>2017-06-05T00:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/mentoring/</loc>
+    <lastmod>2017-06-05T00:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/oss/</loc>
+    <lastmod>2017-06-05T00:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/community/</loc>
+    <lastmod>2017-05-11T22:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/meritocracy/</loc>
+    <lastmod>2017-05-11T22:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/meritocracy-in-open-source/</loc>
+    <lastmod>2017-05-11T22:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/blog-migration/</loc>
+    <lastmod>2017-01-22T19:27:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/hackers-notebook/</loc>
+    <lastmod>2017-01-07T02:46:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/reference/irc/</loc>
+    <lastmod>2017-01-02T18:33:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/fitness/</loc>
+    <lastmod>2011-02-27T21:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/heavy-training/</loc>
+    <lastmod>2011-02-27T21:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/karate/</loc>
+    <lastmod>2011-02-27T21:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/martial-arts/</loc>
+    <lastmod>2011-02-27T21:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/drupal/</loc>
+    <lastmod>2011-01-21T06:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/drupal-support-gap/</loc>
+    <lastmod>2011-01-21T06:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/prerequisites/</loc>
+    <lastmod>2011-01-04T17:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/culture/</loc>
+    <lastmod>2010-09-11T05:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/hacker/</loc>
+    <lastmod>2010-09-11T05:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/hacker-culture-not-optional/</loc>
+    <lastmod>2010-09-11T05:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/feminism/</loc>
+    <lastmod>2010-09-08T13:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/usually-dont-write-about-feminism/</loc>
+    <lastmod>2010-09-08T13:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/money/</loc>
+    <lastmod>2010-07-07T19:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/on-speculative-work/</loc>
+    <lastmod>2010-07-07T19:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/web-development/</loc>
+    <lastmod>2010-07-07T19:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/work/</loc>
+    <lastmod>2010-07-07T19:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/protection-v-preparation/</loc>
+    <lastmod>2010-06-25T20:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/safety/</loc>
+    <lastmod>2010-06-25T20:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/irc/</loc>
+    <lastmod>2010-06-23T23:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/support-leech/</loc>
+    <lastmod>2010-06-23T23:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/politics/</loc>
+    <lastmod>2010-06-15T08:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/tax/</loc>
+    <lastmod>2010-06-15T08:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/taxes-less-about-money-than-you-think/</loc>
+    <lastmod>2010-06-15T08:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/firearms/</loc>
+    <lastmod>2010-06-13T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/warrior-obsession/</loc>
+    <lastmod>2010-06-13T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/mile-wide-half-inch-deep/</loc>
+    <lastmod>2010-06-01T07:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/moving/</loc>
+    <lastmod>2010-06-01T07:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/inside-drupal-toolbox/</loc>
+    <lastmod>2010-04-21T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/for-anyone-who-ever-doubted/</loc>
+    <lastmod>2010-03-16T01:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/drm/</loc>
+    <lastmod>2009-08-18T01:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/gadgets/</loc>
+    <lastmod>2009-08-18T01:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/kindle/</loc>
+    <lastmod>2009-08-18T01:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/news/</loc>
+    <lastmod>2009-08-18T01:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/one-item-removed-from-my-wish-list/</loc>
+    <lastmod>2009-08-18T01:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/another-sign-that-the-media-just-dont-get-it/</loc>
+    <lastmod>2008-09-19T14:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/cisco/</loc>
+    <lastmod>2008-09-19T14:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/jabber/</loc>
+    <lastmod>2008-09-19T14:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/media/</loc>
+    <lastmod>2008-09-19T14:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/google/</loc>
+    <lastmod>2007-12-17T20:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/i-have-minions/</loc>
+    <lastmod>2007-12-17T20:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/oreilly/</loc>
+    <lastmod>2007-12-17T20:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/sandridge/</loc>
+    <lastmod>2007-12-17T20:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/scc/</loc>
+    <lastmod>2007-12-17T20:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/events/</loc>
+    <lastmod>2007-03-27T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/oscms-summit-and-drupalcon-day-2/</loc>
+    <lastmod>2007-03-27T04:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/oscms-summit-and-drupalcon-day-1/</loc>
+    <lastmod>2007-03-26T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/drupalcon-oscms-summit/</loc>
+    <lastmod>2007-02-11T07:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/diy-planner/</loc>
+    <lastmod>2006-10-17T18:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/nanowrimo/</loc>
+    <lastmod>2006-09-28T04:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/yes-ive-lost-my-mind/</loc>
+    <lastmod>2006-09-28T04:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/freenode/</loc>
+    <lastmod>2006-09-16T11:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/rip/</loc>
+    <lastmod>2006-09-16T11:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/2006-rip-rob-levin/</loc>
+    <lastmod>2006-09-16T11:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/business/</loc>
+    <lastmod>2006-08-01T04:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/untitled/</loc>
+    <lastmod>2006-08-01T04:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/insert-project-here-women/</loc>
+    <lastmod>2006-06-30T05:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/fainting-couch-feminism/</loc>
+    <lastmod>2006-06-30T05:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/tech/</loc>
+    <lastmod>2006-06-30T05:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/blog/migrated/node-9/</loc>
+    <lastmod>2006-06-07T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/edutech/</loc>
+    <lastmod>2006-06-07T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugo.binaryredneck.net/tags/true/</loc>
   </url>
   
 </urlset>

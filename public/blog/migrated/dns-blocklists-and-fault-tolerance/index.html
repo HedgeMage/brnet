@@ -1,0 +1,226 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>Binary Redneck</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="Susan Sons" /><meta name="generator" content="Hugo 0.68.3" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <script src="https://kit.fontawesome.com/b76b73e8e8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" /></head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="/">Binary Redneck</a>
+            </h1>
+
+      <ul id="social-media">
+        
+        
+        
+        <li><a href="https://twitter.com/@HedgeMage"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://www.linkedin.com/in/susansons"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+            
+      </ul>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="/about">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/blog/">
+                <i class="fa-li fa  fa-lg"></i><span>Archive</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/reference/">
+                <i class="fa-li fa  fa-lg"></i><span>Reference</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>DNS, Blocklists, and Fault Tolerance</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2017-12-15T22:39:00Z">Dec 15, 2017</time>
+        </li>
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="/tags/dns">#DNS</a>
+                
+                    , 
+                    <a href="/tags/quad9">#Quad9</a>
+                
+                    , 
+                    <a href="/tags/network-protocols">#network-protocols</a>
+                
+            </em>
+        </li>
+        
+
+        <li>7 minutes read</li>
+    </ul>
+</aside>
+
+    
+
+    <p>My workplace hosts weekly &ldquo;brown bag&rdquo; discussions, wherin much of the team and various guests bring our lunches to our larger conference room, or an HTML5 videoconference bridge, and discuss some information security topic over a meal.  It&rsquo;s an informal affair; my stuffed animals may even appear on camera in my stead if I&rsquo;m under the weather as I was today.</p>
+<p>This week&rsquo;s topic was the <a href="https://quad9.net/#/">Quad9 filtered DNS service</a>.  The <a href="http://slides.com/hedgemage/quad9-friend-folly">slides I used</a> to kick off the discussion are publicly available, with some edits/additions in orange following the discussion.  They give a brief introduction to why we have DNS, Quad9&rsquo;s promise, and some dangers that some of my colleagues and I identified should Quad9 become the ubiquitous DNS service.  However, I wanted to capture more of the discussion than slides easily lend themselves to, so below are some of my notes.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>
+<p>Lots of questions around centralizing DNS to one provider.</p>
+<ul>
+<li>
+<p>It took 8.8.8.8 some time to sort out resilience, and they have all of Google&rsquo;s resources behind them.</p>
+</li>
+<li>
+<p>The DynDNS DDoS was a huge disruption to the internet at large, and they are fairly robust.  However, this was in part because so many authoritative nameservers as well as a popular resolving name service were centralized in one place.</p>
+</li>
+<li>
+<p>Why aren&rsquo;t the same concerns raised about 8.8.8.8?  Answer: because 8.8.8.8 can be used with other providers as failover sources for DNS.  In order to receive any protection from Quad9, one must only use Quad9&rsquo;s DNS and no failover provider.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Main reaction to Quad9&rsquo;s failure modes were &ldquo;well, it&rsquo;s better than nothing&rdquo;.</p>
+</li>
+<li>
+<p>Sustainability is a big concern: encouraging these sorts of system-level changes for naive end-users is dangerous if the service may evaporate.</p>
+</li>
+<li>
+<p>I was surprised that the differences in Quad9 response speed for already-cached entries vs. not-cached entries didn&rsquo;t bother more people.</p>
+<ul>
+<li>
+<p>I see this as an effective <a href="https://en.wikipedia.org/w/index.php?title=Hellban&amp;redirect=yes">hellban</a> on niche websites.</p>
+</li>
+<li>
+<p>Others felt that only power users visit anything other than very mainstream websites anyway, and we understand DNS or don&rsquo;t expect reasonable performance from new startups and small operations.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>The transparency issues didn&rsquo;t seem important to most of the group.  I did feel better once I was told that there was, in fact, a search mechanism to find out if one had been banned (but not why) and request removal.  I missed it the first time due to an overzealous blocking mechanism in my browser that thought it was malicious, ironically.  I, personally, would want to know a lot more about how Quad9 determined a site to be a malware source, malware command and control, or other bad actor, before recommending it.  They have promised no content-based censorship, however, there are many grey areas here (such as sites doing legitimate malware research or discussing the topic of malware, IRC networks which inevitably see botnet activity from time to time) which they may not have considered.</p>
+</li>
+<li>
+<p>One person did point out that it&rsquo;s an open question as to where Quad9&rsquo;s operators would have learned how to responsibly operate a blocklist.  The three rules I laid out in my slides are widely accepted and easy to learn, but I can&rsquo;t say they are published anywhere in a traditional sense.  Blocklist operation, because of the risks involved, has always been a niche activity and a bit of black magic as viewed from the outside.  You&rsquo;d have to engage with a blocklist operator&rsquo;s group, NANOG, or have experience consuming DNSBLs in some context to know what to do.  I don&rsquo;t think this is too much to ask, but others felt it sounded too much like &ldquo;join our secret cabal or else!&rdquo; and I get how it can seem that way from the outside.</p>
+</li>
+<li>
+<p>I learned that some end-user security suites typically run by Windows users already attempt egress filtering to cut down on malware issues.</p>
+</li>
+</ul>
+<h2 id="my-thoughts-afterward">My thoughts afterward</h2>
+<ul>
+<li>
+<p>I wish I&rsquo;d done a better job explaining the failover issue.  I&rsquo;d made a point of explaining how and why failover is not possible with Quad9, but perhaps people aren&rsquo;t aware that normal operation is that DNS fails over if your server doesn&rsquo;t give you a useful response: that is, when the first one doesn&rsquo;t work, it tries another, then another.  We seemed to go in circles where people kept asking me why I thought Quad9 was categorically more likely to have outages than any other DNS provider, when that wasn&rsquo;t my issue at all.  My issue was that with any other DNS provider, an outage is handled by a failover service.  With Quad9, an outage is an outage.</p>
+</li>
+<li>
+<p>I&rsquo;m still concerned about the lack of transparency on Quad9&rsquo;s part, but I feel that I&rsquo;ve been too harsh on them in this regard.  They&rsquo;ve made some effort to give people hope that de-listing can work, and it&rsquo;s possible that no one ever introduced them to DNSBL best practices.</p>
+</li>
+<li>
+<p>The discussion we had ended up being pretty slanted, because it was inspired by an email thread about a post (brown bags are often us going off on tangents after things like that) in which someone suggested that we advise people and organizations very broadly to use Quad9 as their DNS resolver.  Many of the centralization issues are mitigated if it becomes just one-of-many providers, and especially if organizations with central IT managing their DNS use an unfiltered provider combined with egress filtering instead.</p>
+</li>
+<li>
+<p>The question came up as people were leaving that if we&rsquo;ve been having an argument about whether it&rsquo;s a good idea for <em>everyone</em> to move to Quad9, would a saner question be (paraphrasing) &ldquo;if we presume that DNS is a good place to filter some malicious activity, what solutions are best for what use cases?&rdquo;</p>
+<ul>
+<li>
+<p>This is a much better question!</p>
+</li>
+<li>
+<p>I feel like we could put together some sort of checklist for this:</p>
+<ul>
+<li>
+<p>If you are a nontechnical user who tends to stick to the mainstream internet <em>and</em> you aren&rsquo;t in an organization with centralized IT management, <em>and</em> you can tolerate rare multi-hour internet outages, Quad9 would be a good match for you.</p>
+</li>
+<li>
+<p>If you are inside an organization with centralized IT management, they should be doing egress filtering on your behalf.</p>
+</li>
+<li>
+<p>If you are on your own, but non-technical, and just can&rsquo;t tolerate potential outages or not being able to get to sites that were erroneously or overzealously blocked, then depending on your tolerance for failure modes vs. setting up your own router, you might choose between a newer SOHO router with egress filtering that&rsquo;s managed for you and an antivirus suite that includes client-side egress filtering.  The latter may be preferable if you are on a laptop and use a lot of public networks.</p>
+</li>
+<li>
+<p>If you fall into the maybe up to 1% of people who are journalists or journalist cohorts, who are technical researchers (especially in areas around information security), have extremely high uptime needs, or have especially censorship-sensitive usage patterns&hellip; then you may just have to pick up some technical expertise, because there isn&rsquo;t a set-it-and-forget-it option at that point.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>The above is just me riffing off the top of my head, though&hellip;there are very likely bits that I haven&rsquo;t thought of in these few minutes.</p>
+</li>
+<li>
+<p>I&rsquo;d also like to ask how heavily we should rely on DNS blocklisting as malware protection.  It is a very circumventable defense, so while it can be one line of defense, I&rsquo;m wary of getting too excited about it.  I wonder if the success and usefulness of DNSBLs for e.g. spam mitigation have led to overconfidence in how well they can work for something as general as disrupting malware across the board.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>I love our brown bags because it&rsquo;s a casual chance to toss ideas around and hash them out.  Malware is an interesting subject in general because it so often targets our end users, whom we should be here to protect, but who end up in a position of being blamed for something that is way out of scope for their level of knowledge and responsibility.  That&rsquo;s something I&rsquo;m glad to say we <em>did not</em> have in this conversation at all.</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://hugo.binaryredneck.net/blog/migrated/gifts-all-kinds/"><i class="fa fa-chevron-circle-left"></i> Gifts of All Kinds</a>
+        </li>
+        
+        
+        <li>
+            <a href="https://hugo.binaryredneck.net/blog/2019/testing-hugo/">Testing Hugo <i class="fa fa-chevron-circle-right"></i> </a>
+        </li>
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6> |
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://hugo.binaryredneck.net/index.xml">Subscribe </a></h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+
+</body>
+
+</html>
+
